@@ -1,0 +1,293 @@
+/* line 2, ../sass/helpers/_body.scss */
+body {
+  margin: 0;
+  background-color: #191919;
+  overflow-x: hidden;
+}
+
+/* line 8, ../sass/helpers/_body.scss */
+h1, h2, h3 {
+  font-family: "Muchacho";
+  color: #fff;
+}
+
+/* line 13, ../sass/helpers/_body.scss */
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Muchacho';
+  src: url("../fonts/Muchacho.otf");
+}
+/* line 23, ../sass/helpers/_body.scss */
+.main-banner {
+  height: 90%;
+  background-image: url("../minimg/bar-background.jpg");
+  background-size: cover;
+}
+/* line 27, ../sass/helpers/_body.scss */
+.main-banner .tint {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 32, ../sass/helpers/_body.scss */
+.main-banner .title {
+  text-align: center;
+  line-height: 600px;
+  font-size: 30px;
+}
+/* line 37, ../sass/helpers/_body.scss */
+.main-banner .sub-title {
+  text-align: center;
+}
+/* line 39, ../sass/helpers/_body.scss */
+.main-banner .sub-title li {
+  position: relative;
+  top: -300px;
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  padding: 25px;
+}
+/* line 47, ../sass/helpers/_body.scss */
+.main-banner .sub-title .spacer {
+  width: 145px;
+  border-left: 2px solid white;
+}
+/* line 51, ../sass/helpers/_body.scss */
+.main-banner .sub-title .spacer:last-child {
+  border-right: 2px solid white;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 58, ../sass/helpers/_body.scss */
+  .main-banner {
+    height: 90%;
+    background-image: url("../minimg/bar-background.jpg");
+    background-size: cover;
+  }
+  /* line 62, ../sass/helpers/_body.scss */
+  .main-banner .tint {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 67, ../sass/helpers/_body.scss */
+  .main-banner .title {
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+  }
+  /* line 72, ../sass/helpers/_body.scss */
+  .main-banner .sub-title {
+    text-align: center;
+  }
+  /* line 74, ../sass/helpers/_body.scss */
+  .main-banner .sub-title li {
+    position: relative;
+    top: 80px;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    padding: 25px;
+  }
+  /* line 82, ../sass/helpers/_body.scss */
+  .main-banner .sub-title .spacer {
+    width: 145px;
+    border-left: 2px solid white;
+  }
+  /* line 86, ../sass/helpers/_body.scss */
+  .main-banner .sub-title .spacer:last-child {
+    border-right: 2px solid white;
+  }
+}
+/* line 93, ../sass/helpers/_body.scss */
+.about-content {
+  max-width: 700px;
+  height: 600px;
+  margin: 100px 0 0 250px;
+}
+/* line 97, ../sass/helpers/_body.scss */
+.about-content h1 {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 103, ../sass/helpers/_body.scss */
+  .about-content {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+  }
+  /* line 107, ../sass/helpers/_body.scss */
+  .about-content h1 {
+    font-size: 70px;
+  }
+  /* line 110, ../sass/helpers/_body.scss */
+  .about-content p {
+    margin-left: 10px;
+  }
+}
+/* line 118, ../sass/helpers/_body.scss */
+.colarge {
+  width: 700px;
+  height: 600px;
+  float: right;
+  margin: 80px 80px;
+}
+/* line 123, ../sass/helpers/_body.scss */
+.colarge .col-span img {
+  width: 700px;
+  height: 450px;
+}
+/* line 127, ../sass/helpers/_body.scss */
+.colarge .col img {
+  width: 350px;
+  height: 250px;
+  float: left;
+}
+/* line 132, ../sass/helpers/_body.scss */
+.colarge img {
+  opacity: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 138, ../sass/helpers/_body.scss */
+  .colarge {
+    display: none;
+  }
+}
+/* line 144, ../sass/helpers/_body.scss */
+.objective-section {
+  max-width: 1200px;
+  margin: 200px auto;
+  border-top: 2px solid #fff;
+}
+/* line 148, ../sass/helpers/_body.scss */
+.objective-section .info {
+  opacity: 0;
+  width: 30%;
+  height: 600px;
+  float: left;
+  margin-left: 35px;
+  transform: translateX(400px);
+  transition: all 0.4s ease-in-out;
+}
+/* line 156, ../sass/helpers/_body.scss */
+.objective-section .info h2 {
+  font-size: 40px;
+}
+/* line 160, ../sass/helpers/_body.scss */
+.objective-section .is-showing {
+  transform: translateX(0px);
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 166, ../sass/helpers/_body.scss */
+  .objective-section {
+    width: 90%;
+    margin: 0px auto;
+  }
+  /* line 169, ../sass/helpers/_body.scss */
+  .objective-section .info {
+    opacity: 0;
+    width: 100%;
+    height: 600px;
+    float: left;
+    margin-left: 10px;
+  }
+  /* line 175, ../sass/helpers/_body.scss */
+  .objective-section .info h2 {
+    font-size: 40px;
+  }
+}
+/* line 184, ../sass/helpers/_body.scss */
+footer {
+  height: 150px;
+  margin-top: 600px;
+  color: #fff;
+}
+/* line 188, ../sass/helpers/_body.scss */
+footer .section {
+  width: 500px;
+  margin: 0 auto;
+  border-top: 2px solid #fff;
+  padding-top: 10px;
+}
+/* line 193, ../sass/helpers/_body.scss */
+footer .section .col {
+  width: 15%;
+  float: left;
+  margin-top: -5px;
+  margin-left: 25px;
+}
+/* line 199, ../sass/helpers/_body.scss */
+footer .section li {
+  list-style: none;
+  padding: 5px;
+}
+/* line 203, ../sass/helpers/_body.scss */
+footer .section .sub-title {
+  font-size: 20px;
+  font-family: 'Muchacho';
+  font-weight: bold;
+}
+/* line 208, ../sass/helpers/_body.scss */
+footer .section .social {
+  width: 50%;
+  float: left;
+  margin-left: 15px;
+}
+/* line 212, ../sass/helpers/_body.scss */
+footer .section .social img {
+  margin: 5px;
+}
+/* line 216, ../sass/helpers/_body.scss */
+footer .section .social img:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+@media screen and (mx-width: 1400px) {
+  /* line 224, ../sass/helpers/_body.scss */
+  footer {
+    height: 150px;
+    margin-top: 600px;
+    border-top: 2px solid #fff;
+    color: #fff;
+  }
+  /* line 229, ../sass/helpers/_body.scss */
+  footer .section {
+    width: 500px;
+    margin: 0 auto;
+    border-top: none;
+    padding-top: 10px;
+  }
+  /* line 234, ../sass/helpers/_body.scss */
+  footer .section .col {
+    width: 15%;
+    float: left;
+    margin-top: -10px;
+    margin-left: 25px;
+  }
+  /* line 240, ../sass/helpers/_body.scss */
+  footer .section li {
+    list-style: none;
+    padding: 5px;
+  }
+  /* line 244, ../sass/helpers/_body.scss */
+  footer .section .sub-title {
+    font-size: 20px;
+    font-family: 'Muchacho';
+    font-weight: bold;
+  }
+  /* line 249, ../sass/helpers/_body.scss */
+  footer .section .social {
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+  }
+}
